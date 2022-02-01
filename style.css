@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    
+    text-align:center;
+
+}
+.profile{
+    border-radius: 50%;
+    width: 400px;
+
+}
+#welcome{
+    position:absolute;
+    background: linear-gradient(#4b42f5 0%, #eb3b46 100%);
+    width:100%;
+    height: 50%;
+display:table;
+left:0;
+right:0;
+top:0;
+bottom:0;
+z-index:5;
+
+}
+#bio{
+    padding:550px;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+
+
+}
+.inner{
+    display:table-cell;
+    vertical-align:middle;
+    position: relative;
+
+}
+#name{
+    font-size:40px;
+    font-weight:bold;
+    font-family: 'Comforter', cursive;
+
+}
+.menu{
+    z-index:10;
+    position:absolute;
+    list-style:none;
+    cursor: pointer;
+    top:10px;
+    right:30px;
+
+}
+.links{
+    float:left;
+    padding:10px;
+    font-size:25px;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+}
+.links:hover{
+    background-color:#4b42f5;
+
+}
